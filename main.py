@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Print the one-star review in entry.txt, byte for byte.
 
-The review is a houseplant's complaint: one star, still thirsty.
-This script keeps things simple — it reads the entry file sitting next
-to it and writes its contents to stdout exactly as stored, so the
-printed text always matches the submitted entry.
+The review is a thirsty houseplant's complaint, kept in entry.txt
+so the text lives in one place. This script only locates that file
+next to itself and writes its contents to stdout unchanged.
+No stripping, no reformatting: what is in the file is what is printed.
 """
 
 import sys
